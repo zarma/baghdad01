@@ -1,0 +1,5 @@
+
+
+#include "R3F_revive\dlg_attente_reanimation.h"
+
+DisabledAI = true;
