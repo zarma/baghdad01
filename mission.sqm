@@ -36,7 +36,8 @@ class Mission
 		"CATracked2_T90",
 		"CATracked2_BMP3",
 		"ace_c_vehicle",
-		"CAAir2_Pchela1T"
+		"CAAir2_Pchela1T",
+		"CAWeapons_M252_81mm_Mortar"
 	};
 	addOnsAuto[]=
 	{
@@ -70,6 +71,7 @@ class Mission
 		"rh_de_cfg",
 		"camisc3",
 		"caair2_uh1y",
+		"CAWeapons_M252_81mm_Mortar",
 		"baghdad"
 	};
 	randomSeed=2748823;
@@ -446,7 +448,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3429.8137,4.5441518,6847.8657};
+					position[]={4315.3765,37.731407,4660.7129};
 					azimut=336.65674;
 					id=54;
 					side="EAST";
@@ -1223,7 +1225,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=42;
+		items=43;
 		class Item0
 		{
 			position[]={1442.6678,3.2213476,8980.4463};
@@ -1627,6 +1629,14 @@ class Mission
 			id=100;
 			side="EMPTY";
 			vehicle="Land_fort_rampart";
+			skill=0.60000002;
+		};
+		class Item42
+		{
+			position[]={4299.1597,4.543961,4672.7144};
+			id=109;
+			side="EMPTY";
+			vehicle="M252";
 			skill=0.60000002;
 		};
 	};
